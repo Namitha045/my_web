@@ -1,0 +1,133 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #343434;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 200px;
+  float: right;
+  margin: 10px;
+}
+h1{
+  margin: 0;
+}
+.content-wrap{
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+p{
+  font-size: 15px;
+  line-height: 1.5;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
+
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+  background: #2F3061;
+  color: #F7FFF7;
+  padding: 0%;
+  margin: 10px;
+  overflow: hidden;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #A1C6D7;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #A1C6D7;
+}
+/* Job Details
+------------------------------------*/
+.Job-Details {
+  background: #A1C6D7;
+}
+.job-summary {
+  padding: 0;
+}
+
+/* Education
+------------------------------------*/
+.Education{
+  background-image: url(joanna-kosinska-unsplash.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding: 20px;
+}
+
+h3 + p{
+  font-style: italic;
+}
+h3 ~ p{
+  margin: 0;
+}
+
+
+/* Contact Info
+------------------------------------*/
+.contact-list{
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a{
+  padding: 15px;
+  display: inline-block;
+}
+footer {
+  background: #2F3061;
+  color: #F7FFF7;
+  font-family: 'Barlow', sans-serif;
+}
+
+/* Responsive
+------------------------------------*/
+@media screen and (min-width:750px){
+  footer{
+    text-align: center;
+  }
+  .contact-list{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 749px){
+  .contact-list a{
+    padding: 10px;
+  }
+}
